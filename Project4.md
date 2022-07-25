@@ -59,3 +59,18 @@ sudo npm install express mongoose
 *In Books Directory*
 
 mkdir apps && cd apps
+
+create a new file in this directory and update its content appropriately
+
+routes.js
+
+*In Apps Directory*
+
+mkdir models && cd models
+
+create a new file in this directory and update its content appropriately
+
+book.js
+
+
+
