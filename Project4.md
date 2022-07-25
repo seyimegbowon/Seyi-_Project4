@@ -39,6 +39,13 @@ sudo apt install -y npm
 sudo npm install body-parser
 
 > COMMENT: While installing NPM, I had an error that NPM not supported by my Node.js version, so I had to upgrade to Node v 12 before the error cleared
+> Node js upgrade to v12 via this command
+
+*curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -*
+
+*sudo apt-get install -y nodejs*
+#### Credit: https://www.codegrepper.com/code-examples/shell/update+node+10+to+12+ubuntu
+
 
 mkdir Books && cd Books
 
@@ -86,13 +93,28 @@ create a new file in this directory and update its content appropriately
 
 index.html
 
-## At the root directory; cd Books Start the server by running this command
+### At the root directory; (Books) Start the server by running this command;
 
 node server.js
 
 ![Screenshot from 2022-07-25 12-45-28](https://user-images.githubusercontent.com/106885875/180784078-3fd4ad18-9dee-4d16-b413-4cdd4bdc8b6e.png)
 
+*To test what curl command returns locally, via port 3300*
 
+curl -s http://localhost:3300
+
+![Screenshot from 2022-07-25 12-56-53](https://user-images.githubusercontent.com/106885875/180784537-16087c74-d6e3-4a72-b001-d9d1c71dd80e.png)
+
+![Screenshot from 2022-07-25 12-57-03](https://user-images.githubusercontent.com/106885875/180784582-67beea94-4c77-4326-8778-b6427552735c.png)
+
+*TCP Port 3300 opened on my EC2 instance and puclic IP launched on my browser*
+
+http://44.206.225.69:3300/
+
+![Screenshot from 2022-07-25 12-53-57](https://user-images.githubusercontent.com/106885875/180785149-d0520807-c289-4137-902d-d5c5d4fc3d5f.png)
+
+
+> ## *Task Beautifully Completed :)*
 
 
 
