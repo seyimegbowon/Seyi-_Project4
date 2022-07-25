@@ -72,5 +72,28 @@ create a new file in this directory and update its content appropriately
 
 book.js
 
+*In Books Directiry*
+
+mkdir public && cd public
+
+create a new file in this directory and update its content appropriately
+
+script.js
+
+Also
+
+create a new file in this directory and update its content appropriately
+
+index.html
+
+## At the root directory; cd Books Start the server by running this command
+
+node server.js
+
+![Screenshot from 2022-07-25 12-45-28](https://user-images.githubusercontent.com/106885875/180784078-3fd4ad18-9dee-4d16-b413-4cdd4bdc8b6e.png)
+
+
+
+
 
 
